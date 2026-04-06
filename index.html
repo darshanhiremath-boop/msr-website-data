@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Villa Customization Portal | The Midsummer Rain by Capstone Life</title>
+    <meta name="description" content="Explore premium villa customization options - from Italian marble flooring to smart home systems. Design your perfect luxury home.">
+    <link rel="stylesheet" href="portal-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <nav class="top-nav" id="topNav">
+        <div class="nav-container">
+            <div class="brand">
+                <div class="logo-icon">MSR</div>
+                <div class="brand-text">
+                    <span class="brand-name">THE MIDSUMMER RAIN</span>
+                    <span class="brand-tagline">Customization Portal</span>
+                </div>
+            </div>
+            
+            <div class="nav-links">
+                <a href="#overview" class="nav-link">Overview</a>
+                <a href="#packages" class="nav-link">Packages</a>
+                <a href="#categories" class="nav-link">Categories</a>
+                <a href="#visualizer" class="nav-link">Visualizer</a>
+                <a href="#contact" class="nav-link nav-cta">Get Quote</a>
+            </div>
+            
+            <button class="mobile-toggle" id="mobileToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-portal">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-accent">Craft Your</span>
+                <span class="title-main">Perfect Villa</span>
+            </h1>
+            <p class="hero-subtitle">From Italian marble flooring to premium sanitary ware and smart home systems - every detail, your choice</p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">8</span>
+                    <span class="stat-label">Customization Categories</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Premium Upgrades</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Flexible Combinations</span>
+                </div>
+            </div>
+            <div class="hero-actions">
+                <a href="#categories" class="btn btn-primary-hero">Explore Options</a>
+                <a href="#packages" class="btn btn-outline-hero">View Packages</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section id="overview" class="overview-section">
+        <div class="container">
+            <div class="section-intro">
+                <span class="section-label">Your Personalization Journey</span>
+                <h2 class="section-title">How It Works</h2>
+                <p class="section-description">Choose early, save more. Every selection is integrated during construction for seamless execution and optimized costs.</p>
+            </div>
+
+            <div class="process-steps">
+                <div class="step-card">
+                    <div class="step-number">01</div>
+                    <div class="step-icon">🏠</div>
+                    <h3>Explore Categories</h3>
+                    <p>Browse 8 customization categories from flooring to smart home systems</p>
+                </div>
+                
+                <div class="step-card">
+                    <div class="step-number">02</div>
+                    <div class="step-icon">🎨</div>
+                    <h3>Select Upgrades</h3>
+                    <p>Choose from curated packages or create your own combination</p>
+                </div>
+                
+                <div class="step-card">
+                    <div class="step-number">03</div>
+                    <div class="step-icon">💡</div>
+                    <h3>Visualize Impact</h3>
+                    <p>See floor-by-floor comparisons of standard vs premium finishes</p>
+                </div>
+                
+                <div class="step-card">
+                    <div class="step-number">04</div>
+                    <div class="step-icon">✅</div>
+                    <h3>Confirm & Build</h3>
+                    <p>Lock in your choices and watch your villa come to life</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customization Categories -->
+    <section id="categories" class="categories-section">
+        <div class="container">
+            <div class="section-intro">
+                <span class="section-label">8 Ways to Personalize</span>
+                <h2 class="section-title">Customization Categories</h2>
+                <p class="section-description">Click on any category to explore upgrade options, view pricing, and see visual comparisons</p>
+            </div>
+
+            <div class="categories-grid">
+                <!-- Category 1: Space Customizations -->
+                <div class="category-card" data-category="space">
+                    <div class="category-number">01</div>
+                    <div class="category-image">
+                        <img src="images/category-space.jpg" alt="Space Customizations">
+                        <div class="category-overlay">
+                            <button class="explore-btn">Explore Options</button>
+                        </div>
+                    </div>
+                    <div class="category-info">
+                        <h3>Space Customizations</h3>
+                        <p>Spaces that adapt to you</p>
+                        <ul class="category-features">
+                            <li>Gourmet Kitchen Options</li>
+                            <li>Maid's Room Configuration</li>
+                            <li>Powder Room Addition</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Category 2: Marble Packages -->
+                <div class="category-card" data-category="marble">
+                    <div class="category-number">02</div>
+                    <div class="category-image">
+                        <img src="images/category-marble.jpg" alt="Marble Packages">
+                        <div class="category-overlay">
+                            <button class="explore-btn">Explore Options</button>
+                        </div>
+                    </div>
+                    <div class="category-info">
+                        <h3>Marble Packages</h3>
+                        <p>The elegance of timeless stone</p>
+                        <ul class="category-features">
+                            <li>Package 01: ₹14.75L - All Rooms</li>
+                            <li>Package 02: ₹5.0L - Selective Areas</li>
+                            <li>Custom: Room-by-Room Selection</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Category 3: Bathroom Upgrades -->
+                <div class="category-card" data-category="bathroom">
+                    <div class="category-number">03</div>
+                    <div class="category-image">
+                        <img src="images/category-bathroom.jpg" alt="Bathroom Upgrades">
+                        <div class="category-overlay">
+                            <button class="explore-btn">Explore Options</button>
+                        </div>
+                    </div>
+                    <div class="category-info">
+                        <h3>Bathroom Upgrades</h3>
+                        <p>Every bath, a private sanctuary</p>
+                        <ul class="category-features">
+                            <li>Duravit Designer Series</li>
+                            <li>Hansgrohe Premium Fittings</li>
+                            <li>Bathtubs & Jacuzzis</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Category 4: Personalized Interiors -->
+                <div class="category-card" data-category="interiors">
+                    <div class="category-number">04</div>
+                    <div class="category-image">
+                        <img src="images/category-interiors.jpg" alt="Personalized Interiors">
+                        <div class="category-overlay">
+                            <button class="explore-btn">Explore Options</button>
+                        </div>
+                    </div>
+                    <div class="category-info">
+                        <h3>Personalized Interiors</h3>
+                        <p>Exclusive interiors, crafted for you</p>
+                        <ul class="category-features">
+                            <li>Modular Kitchen Designs</li>
+                            <li>Wardrobe & Storage Solutions</li>
+                            <li>Lighting & Furnishings</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Category 5: Landscape Packages -->
+                <div class="category-card" data-category="landscape">
+                    <div class="category-number">05</div>
+                    <div class="category-image">
+                        <img src="images/category-landscape.jpg" alt="Landscape Packages">
+                        <div class="category-overlay">
+                            <button class="explore-btn">Explore Options</button>
+                        </div>
+                    </div>
+                    <div class="category-info">
+                        <h3>Landscape Packages</h3>
+                        <p>Nature woven into your villa</p>
+                        <ul class="category-features">
+                            <li>Ground Floor Garden</li>
+                            <li>Terrace Landscape</li>
+                            <li>Irrigation Systems</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Category 6: Smart Home -->
+                <div class="category-card" data-category="smarthome">
+                    <div class="category-number">06</div>
+                    <div class="category-image">
+                        <img src="images/category-smarthome.jpg" alt="Smart Home">
+                        <div class="category-overlay">
+                            <button class="explore-btn">Explore Options</button>
+                        </div>
+                    </div>
+                    <div class="category-info">
+                        <h3>Smart Home</h3>
+                        <p>Intelligence that inspires</p>
+                        <ul class="category-features">
+                            <li>Silver: ₹8.0L - Essential automation</li>
+                            <li>Gold: ₹12.5L - Advanced control</li>
+                            <li>Platinum: ₹17.0L - Complete integration</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Category 7: VRF System -->
+                <div class="category-card" data-category="vrf">
+                    <div class="category-number">07</div>
+                    <div class="category-image">
+                        <img src="images/category-vrf.jpg" alt="VRF Cooling System">
+                        <div class="category-overlay">
+                            <button class="explore-btn">Explore Options</button>
+                        </div>
+                    </div>
+                    <div class="category-info">
+                        <h3>VRF Cooling System</h3>
+                        <p>Effortless comfort, elevated efficiency</p>
+                        <ul class="category-features">
+                            <li>₹13.5L Complete System</li>
+                            <li>50% Energy Savings</li>
+                            <li>Individual Room Control</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Category 8: Lift Interiors -->
+                <div class="category-card" data-category="lift">
+                    <div class="category-number">08</div>
+                    <div class="category-image">
+                        <img src="images/category-lift.jpg" alt="Lift Interior">
+                        <div class="category-overlay">
+                            <button class="explore-btn">Explore Options</button>
+                        </div>
+                    </div>
+                    <div class="category-info">
+                        <h3>Lift Interior Refinement</h3>
+                        <p>Sophisticated detailing for every journey</p>
+                        <ul class="category-features">
+                            <li>Standard: ₹3.0L</li>
+                            <li>Elite: ₹6.0L</li>
+                            <li>Grandeur: ₹9.0L</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Visualizer -->
+    <section id="visualizer" class="visualizer-section">
+        <div class="container-full">
+            <div class="section-intro">
+                <span class="section-label">See The Difference</span>
+                <h2 class="section-title">Interactive Floor Visualizer</h2>
+                <p class="section-description">Compare standard finishes with premium upgrades across all three floors</p>
+            </div>
+
+            <div class="visualizer-wrapper">
+                <div class="visualizer-controls">
+                    <div class="floor-tabs">
+                        <button class="floor-tab active" data-floor="ground">Ground Floor</button>
+                        <button class="floor-tab" data-floor="first">First Floor</button>
+                        <button class="floor-tab" data-floor="second">Second Floor</button>
+                    </div>
+                    
+                    <div class="view-switch">
+                        <button class="view-btn active" data-view="standard">Standard</button>
+                        <button class="view-btn" data-view="upgrade">Premium Upgrade</button>
+                    </div>
+                </div>
+
+                <div class="visualizer-display">
+                    <div class="floor-plan-viewer">
+                        <img id="floor-plan-img" src="images/ground-floor-standard.jpg" alt="Floor Plan">
+                        <div class="floor-legend">
+                            <div class="legend-item">
+                                <span class="legend-color standard"></span>
+                                <span>Standard Tile</span>
+                            </div>
+                            <div class="legend-item">
+                                <span class="legend-color marble"></span>
+                                <span>Standard Marble</span>
+                            </div>
+                            <div class="legend-item">
+                                <span class="legend-color upgrade"></span>
+                                <span>Premium Upgrade</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="floor-details">
+                        <h3 id="floor-title">Ground Floor - Standard Configuration</h3>
+                        <div id="room-list" class="room-list">
+                            <!-- Dynamically populated -->
+                        </div>
+                        <div class="upgrade-cta">
+                            <p>Interested in upgrading this floor?</p>
+                            <button class="btn btn-primary">Request Quote</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Packages -->
+    <section id="packages" class="packages-showcase">
+        <div class="container">
+            <div class="section-intro">
+                <span class="section-label">Curated Combinations</span>
+                <h2 class="section-title">Popular Package Bundles</h2>
+                <p class="section-description">Pre-designed combinations that offer maximum value and impact</p>
+            </div>
+
+            <div class="package-carousel">
+                <div class="package-item">
+                    <div class="package-badge">Most Popular</div>
+                    <h3>Premium Essentials</h3>
+                    <div class="package-price">₹22L+</div>
+                    <p class="package-desc">Complete marble flooring + Smart Home Gold + Bathroom upgrades</p>
+                    <ul class="package-inclusions">
+                        <li>All-room marble flooring</li>
+                        <li>Smart Home Gold Package</li>
+                        <li>2 Premium bathroom upgrades</li>
+                        <li>Ground floor landscape</li>
+                    </ul>
+                    <button class="btn btn-outline">View Details</button>
+                </div>
+
+                <div class="package-item">
+                    <div class="package-badge best-value">Best Value</div>
+                    <h3>Comfort Plus</h3>
+                    <div class="package-price">₹15L+</div>
+                    <p class="package-desc">Essential upgrades for everyday luxury living</p>
+                    <ul class="package-inclusions">
+                        <li>Selective marble (master + lounge)</li>
+                        <li>Smart Home Silver Package</li>
+                        <li>1 Premium bathroom upgrade</li>
+                        <li>Basic landscape enhancements</li>
+                    </ul>
+                    <button class="btn btn-outline">View Details</button>
+                </div>
+
+                <div class="package-item">
+                    <div class="package-badge luxury">Ultimate Luxury</div>
+                    <h3>Grand Living</h3>
+                    <div class="package-price">₹45L+</div>
+                    <p class="package-desc">Complete transformation with premium finishes throughout</p>
+                    <ul class="package-inclusions">
+                        <li>Complete marble + bathroom tiles</li>
+                        <li>Smart Home Platinum</li>
+                        <li>All bathrooms upgraded</li>
+                        <li>VRF cooling system</li>
+                        <li>Complete landscape package</li>
+                    </ul>
+                    <button class="btn btn-primary">View Details</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact/CTA Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-left">
+                    <h2>Ready to Customize Your Villa?</h2>
+                    <p>Schedule a consultation with our design team to explore all customization possibilities and get detailed quotations.</p>
+                    
+                    <div class="contact-benefits">
+                        <div class="benefit-item">
+                            <span class="benefit-icon">✓</span>
+                            <div>
+                                <strong>No Obligation Consultation</strong>
+                                <p>Discuss your vision with our experts</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-icon">✓</span>
+                            <div>
+                                <strong>Detailed Cost Breakdown</strong>
+                                <p>Transparent pricing for every selection</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-icon">✓</span>
+                            <div>
+                                <strong>Material Sample Viewing</strong>
+                                <p>Touch and feel premium finishes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper">
+                    <form id="contactForm" class="contact-form">
+                        <h3>Get Your Custom Quote</h3>
+                        <div class="form-group">
+                            <label>Full Name *</label>
+                            <input type="text" required placeholder="Enter your name">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Email *</label>
+                                <input type="email" required placeholder="your@email.com">
+                            </div>
+                            <div class="form-group">
+                                <label>Phone *</label>
+                                <input type="tel" required placeholder="+91 XXXXX XXXXX">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Villa Number (if already booked)</label>
+                            <input type="text" placeholder="Optional">
+                        </div>
+                        <div class="form-group">
+                            <label>Interested Categories</label>
+                            <select multiple class="multi-select">
+                                <option value="marble">Marble Flooring</option>
+                                <option value="bathroom">Bathroom Upgrades</option>
+                                <option value="smarthome">Smart Home</option>
+                                <option value="vrf">VRF System</option>
+                                <option value="landscape">Landscape</option>
+                                <option value="interiors">Interiors</option>
+                                <option value="all">All Options</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Additional Comments</label>
+                            <textarea rows="3" placeholder="Tell us about your preferences..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Submit Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>THE MIDSUMMER RAIN</h3>
+                    <p>Luxury lakeside villas by Capstone Life</p>
+                    <p class="footer-note">All prices mentioned are indicative and subject to GST. Final pricing may vary based on selections and specifications.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#overview">How It Works</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                        <li><a href="#packages">Packages</a></li>
+                        <li><a href="#visualizer">Visualizer</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Get In Touch</h4>
+                    <p><strong>Phone:</strong> +91 XXXXX XXXXX</p>
+                    <p><strong>Email:</strong> customize@midsummerrain.com</p>
+                    <p><strong>Address:</strong> Devanahalli, North Bengaluru</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 The Midsummer Rain by Capstone Life. All rights reserved. | RERA: XXXXXXXXXXXXX</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal for Category Details -->
+    <div id="categoryModal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div id="modalBody" class="modal-body">
+                <!-- Dynamically populated -->
+            </div>
+        </div>
+    </div>
+
+    <script src="portal-script.js"></script>
+</body>
+</html>
